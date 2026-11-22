@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="km" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSE HUOKAING THARA - Ghost Stories Khmer / និទានរឿងខ្មោចខ្មែរ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="universe_huokaingthara.jpg">
+</head>
+<body>
+
+    <!-- Holographic Scanline Overlay -->
+    <div id="holo-overlay"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header">
+        <div class="logo-container">
+            <i class="fa-solid fa-ghost spin-icon"></i>
+            <h1>UNIVERSE HUOKAING THARA <span class="sub-title">និទានរឿងខ្មោចខ្មែរ / Ghost Stories Khmer</span></h1>
+        </div>
+        <div class="controls">
+            <button id="langToggleBtn" class="control-btn">🇰🇭 / EN</button>
+            <button id="themeToggleBtn" class="control-btn"><i class="fa-solid fa-moon"></i></button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-container">
+
+        <!-- Hero Section -->
+        <section class="hero-banner">
+            <div class="badge">👻 MIDNIGHT FOLKLORE & SUPERNATURAL ARCHIVE</div>
+            <h2 class="km">មជ្ឈមណ្ឌលនិទានរឿងខ្មោចខ្មែរ និងបទពិសោធន៍ព្រឺព្រួច</h2>
+            <h2 class="en">Khmer Ghost Stories & Supernatural Folklore Hub</h2>
+            <p class="km">
+                ជ្រមុជចូលទៅក្នុងពិភពរឿងអាថ៌កំបាំង ជំនឿបុរាណខ្មែរ និងបទពិសោធន៍ផ្ទាល់ដ៏រន្ធត់ព្រឺរោម ក្រោមការផលិត និងរួមចំណែកពី <strong>UNIVERSE HUOKAING THARA Group</strong> និងលោក <strong>ជອນ រតនៈ (Chorn Rothanak)</strong>។
+            </p>
+            <p class="en">
+                Step into chilling Khmer supernatural tales, ancestral legends, and real-life eerie encounters presented under <strong>UNIVERSE HUOKAING THARA Group</strong> with contributor <strong>Mr. Chorn Rothanak</strong>.
+            </p>
+
+            <!-- Search & Filter Bar -->
+            <div class="filter-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="storySearch" placeholder="ស្វែងរកចំណងជើងរឿង... / Search episodes, locations, legends...">
+                </div>
+                <div class="filter-pills">
+                    <button class="pill-btn active" data-filter="all">All / ទាំងអស់</button>
+                    <button class="pill-btn" data-filter="folklore">Folklore / អប្បិយជំនឿ</button>
+                    <button class="pill-btn" data-filter="real-life">Real Experience / បទពិសោធន៍ផ្ទាល់</button>
+                    <button class="pill-btn" data-filter="midnight">Midnight Special / រឿងយប់ជ្រៅ</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Episodes Grid -->
+        <section class="episodes-section">
+            <h3 class="section-heading">
+                <i class="fa-solid fa-fire-flame-curved"></i>
+                <span class="km">កម្រងរឿងនិទានពេញនិយម (Featured Episodes)</span>
+                <span class="en">Featured Ghost Story Episodes</span>
+            </h3>
+
+            <div class="episodes-grid" id="episodesGrid">
+
+                <article class="story-card featured" data-cat="folklore">
+                    <div class="card-meta">
+                        <span class="ep-tag">EP 01 • FOLKLORE</span>
+                        <span class="scare-level high">☠️ High Scare</span>
+                    </div>
+                    <h4 class="km">ស្រមោលនៅផ្ទះចាស់ចុងភូមិ</h4>
+                    <h4 class="en">The Shadow in the Old Village House</h4>
+                    <p class="km">រឿងរ៉ាវបុរសវ័យក្មេងម្នាក់ដែលស្នាក់នៅផ្ទះឈើចាស់តែម្នាក់ឯង ហើយឮសំឡេងហៅឈ្មោះនៅម៉ោង ១២ យប់។</p>
+                    <p class="en">A young man stays alone in an old wooden house and hears a mysterious voice calling his name past midnight.</p>
+                    <div class="card-footer">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 28 min</span>
+                        <button class="read-btn"
+                            data-title="ស្រមោលនៅផ្ទះចាស់ចុងភូមិ / The Shadow in the Old Village House"
+                            data-narrator="Mr. Chorn Rothanak • UNIVERSE HUOKAING THARA"
+                            data-preview="ម៉ោង ១១:៥៥ យប់ ខ្យល់បក់វូៗឆ្លងកាត់ដើមឫស្សីខាងក្រោយផ្ទះ... សំឡេងជំហានជើងស្រាលៗដើរឡើងជណ្តើរឈើម្ដងមួយកាំៗ ទោះបីទ្វាររបងត្រូវបានចាក់សោរួចហើយក៏ដោយ។">
+                            <span class="km">អានសង្ខេប & ស្តាប់</span> / <span class="en">Preview Story</span>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="story-card" data-cat="real-life">
+                    <div class="card-meta">
+                        <span class="ep-tag">EP 02 • REAL STORY</span>
+                        <span class="scare-level medium">👻 Medium Scare</span>
+                    </div>
+                    <h4 class="km">ដំណើរឆ្លងផ្លូវពេលយប់ជ្រៅ</h4>
+                    <h4 class="en">Late Night Highway Encounter</h4>
+                    <p class="km">បទពិសោធន៍ធ្វើដំណើរតាមផ្លូវស្ងាត់នៅពេលយប់ ដែលជួបប្រទះរូបរាងចម្លែកនៅលើកញ្ចក់មើលក្រោយ។</p>
+                    <p class="en">A late-night drive along a quiet provincial road turns eerie when an unexpected figure appears in the rearview mirror.</p>
+                    <div class="card-footer">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 22 min</span>
+                        <button class="read-btn"
+                            data-title="ដំណើរឆ្លងផ្លូវពេលយប់ជ្រៅ / Late Night Highway Encounter"
+                            data-narrator="Mr. Chorn Rothanak • UNIVERSE HUOKAING THARA"
+                            data-preview="ផ្លូវស្ងាត់គ្មានរថយន្តសោះតាំងពីកន្លះម៉ោងមុន... ភ្លាមនោះភ្លើងហ្វារបានបំភ្លឺស្រមោលសខ្មៅឈរនៅគែមផ្លូវបត់កែង។">
+                            <span class="km">អានសង្ខេប & ស្តាប់</span> / <span class="en">Preview Story</span>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="story-card" data-cat="midnight">
+                    <div class="card-meta">
+                        <span class="ep-tag">EP 03 • MIDNIGHT</span>
+                        <span class="scare-level high">☠️ High Scare</span>
+                    </div>
+                    <h4 class="km">សំឡេងច្រៀងក្រោមដើមច្រេស</h4>
+                    <h4 class="en">Chanting Beneath the Ancient Tree</h4>
+                    <p class="km">រឿងព្រេង និងការហាមប្រាមបុរាណអំពីការដើរកាត់ទីតាំងអាថ៌កំបាំងនៅពេលថ្ងៃលិច។</p>
+                    <p class="en">An ancestral warning about crossing a sacred grove at dusk when faint chanting echoes through the mist.</p>
+                    <div class="card-footer">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 34 min</span>
+                        <button class="read-btn"
+                            data-title="សំឡេងច្រៀងក្រោមដើមច្រេស / Chanting Beneath the Ancient Tree"
+                            data-narrator="Mr. Chorn Rothanak • UNIVERSE HUOKAING THARA"
+                            data-preview="ចាស់ទុំតែងប្រាប់កូនចៅកុំឱ្យឈប់សម្រាកក្រោមដើមឈើធំពេលព្រលប់... ព្រោះទីនោះមានម្ចាស់ថែរក្សា។">
+                            <span class="km">អានសង្ខេប & ស្តាប់</span> / <span class="en">Preview Story</span>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="story-card" data-cat="real-life">
+                    <div class="card-meta">
+                        <span class="ep-tag">EP 04 • REAL STORY</span>
+                        <span class="scare-level medium">👻 Medium Scare</span>
+                    </div>
+                    <h4 class="km">បន្ទប់ជួលលេខ ៤០៤</h4>
+                    <h4 class="en">Room 404 Mystery</h4>
+                    <p class="km">ហេតុការណ៍ចម្លែកក្នុងបន្ទប់ជួល ដែលទូរទស្សន៍បើកដោយខ្លួនឯង និងសំឡេងគោះទ្វារបីដង។</p>
+                    <p class="en">Strange occurrences inside a rental room including unexplained knocks on the door and sudden static on screen.</p>
+                    <div class="card-footer">
+                        <span class="duration"><i class="fa-regular fa-clock"></i> 19 min</span>
+                        <button class="read-btn"
+                            data-title="បន្ទប់ជួលលេខ ៤០៤ / Room 404 Mystery"
+                            data-narrator="Mr. Chorn Rothanak • UNIVERSE HUOKAING THARA"
+                            data-preview="តុក! តុក! តុក! — សំឡេងគោះទ្វារឮឡើងយឺតៗ ប៉ុន្តែពេលបើកទ្វារមើល គ្មាននរណាម្នាក់នៅខាងក្រៅឡើយ។">
+                            <span class="km">អានសង្ខេប & ស្តាប់</span> / <span class="en">Preview Story</span>
+                        </button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Story Preview Modal -->
+    <div id="storyModal" class="modal-backdrop hidden">
+        <div class="modal-card">
+            <span class="modal-badge">EPISODE PREVIEW</span>
+            <h3 id="modalStoryTitle">Story Title</h3>
+            <p class="modal-narrator"><i class="fa-solid fa-microphone-lines"></i> <span id="modalNarrator"></span></p>
+            <div class="modal-quote" id="modalPreviewText"></div>
+            <button id="closeStoryModal" class="control-btn full-width">
+                <span class="km">បិទផ្ទាំង</span> / <span class="en">Close Preview</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2026 UNIVERSE HUOKAING THARA Group. All Rights Reserved. / រក្សាសិទ្ធិគ្រប់យ៉ាង។</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
